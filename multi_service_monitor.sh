@@ -24,7 +24,7 @@ function check_service() {
 
 function send_alert() {
 	local message="$1"
-	local slack_webhook_url="https://hooks.slack.com/services/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"
+	local slack_webhook_url="YOUR_SLACK_WEBHOOK_URL"
 	local hostname=$(hostname)
 
 	local slack_payload
